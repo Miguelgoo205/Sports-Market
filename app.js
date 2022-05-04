@@ -41,8 +41,8 @@ function createCard(nameProduct, imgProduct, priceProduct) {
     eliminar.textContent = "X";
     btn.textContent = "Comprar"
     main.appendChild(card);
-    card.appendChild(title);
     card.appendChild(eliminar);
+    card.appendChild(title);
     card.appendChild(imgCard);
     card.appendChild(price);
     card.appendChild(btn);
@@ -52,17 +52,18 @@ function createCard(nameProduct, imgProduct, priceProduct) {
     btn.classList.add("btn-add");
     price.classList.add("p-price");
     eliminar.classList.add("delete-btn");
-  // card.classList.remove("cardPrueba")
+    // card.classList.remove("cardPrueba")
+    
+    eliminar.addEventListener("click", deleteCard)
+    
+    function deleteCard(){
+      main.removeChild(card);
+    }
+
 }
 
 
 // products.map(element => { console.log(element.name) });
-
-eliminar.addEventListener("click", deleteCard)
-
-function deleteCard(){
-  card.removeChild(price)
-}
 
 
 

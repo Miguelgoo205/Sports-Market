@@ -112,12 +112,12 @@ select > option {
   width: 20rem;
   height: 20rem;
   border-radius: 10px;
-  border: solid 2px #000041;
+  border: solid 2px #478792;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 1rem;  
-  background-color: #140864de;
+  background-color: #B1DDE5;
 }
 
 .header-card {
@@ -142,8 +142,26 @@ select > option {
 .p-title {
   font-size: 2rem;
   font-weight: 900;
-  color: #ffffff;
-  font-family: 'Roboto', sans-serif;
+  color: #0d7f93;
+  font-family: 'Times New Roman', Times, serif;
+  /* font-style: oblique; */
+
+
+}
+.delete-btn {
+  font-size: 1.5rem;
+  font-weight: 500;
+  display: flex;
+  color: #c05454;
+  align-items: right;
+  border: 2px solid #0d7f93;
+  border-radius: 5px;
+  margin: 3px;
+  /* margin: auto; */
+}
+.delete-btn:hover {
+  background: #3f94a3;
+  color: white;
 }
 
 
@@ -154,7 +172,7 @@ select > option {
   box-shadow: 0 0 10px #000041;
   background-size: cover;
   background-position: center;  
-  margin-top: 1.5rem;
+  margin-top: 1.2rem;
 }
 
 .footer-card {
@@ -167,22 +185,23 @@ select > option {
 }
 
 .p-price {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   font-weight: 900;
-  color: #fefefe;
-  font-family: 'Roboto', sans-serif;
+  color: #c05454;
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 0.5rem;
 }
 
 .btn-add  {
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: #000000;
   font-size: 1.5rem;
-  padding: 10px;
+  /* padding: 10px; */
   text-decoration: none;
   text-align: center;
   border-radius: 28px;
-  border: solid #8a8787 2px;
-  background: -webkit-gradient(linear, 0 0, 0 100%, from(#3fbffa), to(#3e8996));  
+  border: solid #0d7f93 2px;
+  /* background: -webkit-gradient(linear, 0 0, 0 100%, from(#3fbffa), to(#3e8996));   */
   cursor: pointer;
   width: 10rem;
   height: 2.5rem;
@@ -190,7 +209,7 @@ select > option {
 }
 
 .btn-add:hover {
-  background: black;
+  background: #3f94a3;
   color: white;
 }
 
