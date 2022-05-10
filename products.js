@@ -1,15 +1,10 @@
 // Crear productos deportivos
 const products = [
-  {id: 1, name: 'Balón 1', price: 100,img: 'https://balls-mp-er.s3.us-east-2.amazonaws.com/Images/balon1.jpeg'},
-  {id: 2, name: 'Balón 2', price: 200,img: 'https://balls-mp-er.s3.us-east-2.amazonaws.com/Images/balon2.jpeg'},
-  {id: 3, name: 'Balón 3', price: 300,img: 'https://balls-mp-er.s3.us-east-2.amazonaws.com/Images/balon3.jpeg'},
-  {id: 4, name: 'Balón 4', price: 400,img: 'https://balls-mp-er.s3.us-east-2.amazonaws.com/Images/balon4.jpeg'},
-  {id: 5, name: 'Balón 5', price: 500,img: 'https://balls-mp-er.s3.us-east-2.amazonaws.com/Images/balon5.jpeg'},
-  {id: 6, name: 'Balón 6', price: 600,img: 'https://balls-mp-er.s3.us-east-2.amazonaws.com/Images/balon6.jpeg'},
-  {id: 7, name: 'Balón 7', price: 700,img: 'https://balls-mp-er.s3.us-east-2.amazonaws.com/Images/balon7.jpeg'},
-  {id: 8, name: 'Balón 8', price: 800,img: 'https://balls-mp-er.s3.us-east-2.amazonaws.com/Images/balon8.jpeg'},
-  {id: 9, name: 'Balón 9', price: 900,img: 'https://balls-mp-er.s3.us-east-2.amazonaws.com/Images/balon9.jpeg'},
-  {id: 10, name: 'Balón 10', price: 1000,img: 'https://balls-mp-er.s3.us-east-2.amazonaws.com/Images/balon10.jpeg'},
-  {id: 11, name: 'Balón 11', price: 1100,img: 'https://balls-mp-er.s3.us-east-2.amazonaws.com/Images/balon11.jpeg'},
-  {id: 12, name: 'Balón 12', price: 1200,img: 'https://balls-mp-er.s3.us-east-2.amazonaws.com/Images/balon12.jpeg'},
+  {id: 1, name: 'Air Jordan 1 Retro', price: "US$ 209.00",img: 'https://bizweb.dktcdn.net/thumb/1024x1024/100/406/150/products/jordan-air-jordan-1-mid-sneakers-16134177-30495375-2048.jpg'},
+  {id: 2, name: 'Air Jordan 2 Retro', price: "US$ 390.00",img: 'https://www.doggshiphop.com/hip-hop/air-jordan-retro-2.jpeg'},
+  {id: 3, name: 'Air Jordan 3 Retro', price: "US$ 348.00",img: 'https://m.media-amazon.com/images/I/71F1mDfrgnL._AC_UL1500_.jpg'},
+  {id: 4, name: 'Air jordan 4 Retro', price: "US$ 375.00",img: 'https://m.media-amazon.com/images/I/51fZo0qO5WS._AC_UX695_.jpg'},
+  {id: 5, name: 'Air Jordan 5 Retro', price: "US$ 398.00",img: 'https://m.media-amazon.com/images/I/61lNPpU2lGS._AC_UX395_.jpg'},
+  {id: 6, name: 'Air Jordan 6 Retro', price: "US$ 349.99",img: 'https://cdn.shopify.com/s/files/1/0575/1560/6175/products/Air-Jordan-6-UNC-University-Blue-CT8529-410-Release-Date-Price-4-1068x836_2000x.progressive.jpg?v=1646530261'},
+  {id: 7, name: 'Air Jordan 7 Retro', price: "US$ 210.00",img: 'https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQhKJ1eKdYdll20NcAlZPSU2n7JWgvVXFIeDPB5BP7-yj5XTwb1'},
 ];

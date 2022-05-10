@@ -1,5 +1,6 @@
 const main = document.getElementById('main-market');
 const selectProducts = document.getElementById("select-products");
+const contador = document.getElementById("p-counter")
 
 
 window.addEventListener('load', loadSelect);
@@ -58,6 +59,12 @@ function createCard(nameProduct, imgProduct, priceProduct) {
     
     function deleteCard(){
       main.removeChild(card);
+    }
+
+    btn.addEventListener("click", counter)
+    function counter() {
+      alert("Funcionaa!!!")
+      
     }
 
 }

@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;  
+  
 }
 
 body {
@@ -23,6 +24,8 @@ header {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
+  /* background: url("Images/bannerjor.jpeg"); */
+
 }
 
 h1 {
@@ -47,8 +50,10 @@ section {
   height: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;    
+  align-items: center;
 }
+
+
 
 h2 {
   font-size: 4rem;
@@ -110,14 +115,14 @@ select > option {
 
 .card {
   width: 20rem;
-  height: 20rem;
+  height: 23rem;
   border-radius: 10px;
   border: solid 2px #478792;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 1rem;  
-  background-color: #B1DDE5;
+  background-color: #000000;
 }
 
 .header-card {
@@ -140,10 +145,11 @@ select > option {
 }
 
 .p-title {
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: 900;
   color: #0d7f93;
   font-family: 'Times New Roman', Times, serif;
+  text-align: center;
   /* font-style: oblique; */
 
 
@@ -166,13 +172,14 @@ select > option {
 
 
 .img-card {
-  width: 40%;
-  height: 8rem;
+  width: 60%;
+  height: 9rem;
   border-radius: 10px;
   box-shadow: 0 0 10px #000041;
   background-size: cover;
   background-position: center;  
   margin-top: 1.2rem;
+  border: 2px solid #4ad5f8;
 }
 
 .footer-card {
@@ -222,4 +229,6 @@ footer {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+
+  
 }
